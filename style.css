@@ -42,7 +42,7 @@ img{
     margin-bottom: 1.5em;
 }
 .card__heading{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color:hsl(0, 0%, 100%);
     font-weight: 400;
     margin-bottom: 1rem;
@@ -95,4 +95,5 @@ img{
 }
 .card__footer span{
     color:hsl(0, 0%, 100%);
+    
 }
