@@ -11,9 +11,10 @@ body{
     justify-content: center;
     align-items: center;
     background-color:  hsl(217, 54%, 11%);
-    font-family: Outfit "sans-serif";
+    font-family: Outfit serif;
     color:hsla(0, 0%, 100%,.5);
     font-weight: 300;
+    font-size: 1rem;
 }
 img{
     width:100%;
@@ -29,6 +30,7 @@ img{
     border-radius:15px;
     margin:2rem 0;
     line-height: 1.2;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     
 }
 .card__content{
@@ -41,14 +43,12 @@ img{
     margin-bottom: 1.5em;
 }
 .card__heading{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color:hsl(0, 0%, 100%);
     font-weight: 400;
     margin-bottom: 1rem;
 }
 .card__description{
-    font-weight: 300;
-    font-size: 1rem;
     margin-bottom: 1rem;
 }
 .card__stock{
@@ -65,7 +65,6 @@ img{
 }
 .card-quantity h2{
     color:hsl(178, 100%, 50%);
-    font-size: 1rem;
     font-weight: 400;
     margin-left: .4em;
 }
@@ -93,7 +92,6 @@ img{
     margin-right:1rem;
 }
 .card__footer h3{
-    font-size: 1rem;
     font-weight: 100;
 }
 .card__footer span{
