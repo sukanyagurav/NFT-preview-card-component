@@ -98,3 +98,16 @@ img{
     color:hsl(0, 0%, 100%);
     
 }
+@media (max-width: 350px) {
+    .card__stock {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.2em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .card__stock .card-quantity{
+        margin-bottom: .25em;
+    }
+}
+
